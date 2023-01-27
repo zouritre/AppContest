@@ -14,6 +14,8 @@
 		C2ADC21529841D4300FA1B00 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2ADC21229841D4300FA1B00 /* SourceSansPro-Regular.ttf */; };
 		C2ADC21629841D4300FA1B00 /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2ADC21329841D4300FA1B00 /* SourceSansPro-Light.ttf */; };
 		C2ADC21729841D4300FA1B00 /* SourceSansPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2ADC21429841D4300FA1B00 /* SourceSansPro-SemiBold.ttf */; };
+		C2ADC21C298421E100FA1B00 /* friends1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2ADC21A298421E100FA1B00 /* friends1.jpg */; };
+		C2ADC21D298421E100FA1B00 /* friends2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2ADC21B298421E100FA1B00 /* friends2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C2ADC21329841D4300FA1B00 /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
 		C2ADC21429841D4300FA1B00 /* SourceSansPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiBold.ttf"; sourceTree = "<group>"; };
 		C2ADC21829841DC600FA1B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C2ADC21A298421E100FA1B00 /* friends1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = friends1.jpg; sourceTree = "<group>"; };
+		C2ADC21B298421E100FA1B00 /* friends2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = friends2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		C2ADC21029841D0300FA1B00 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C2ADC2192984216F00FA1B00 /* Images */,
 				C2ADC21129841D0900FA1B00 /* Fonts */,
 			);
 			path = Resources;
@@ -92,6 +97,15 @@
 				C2ADC21429841D4300FA1B00 /* SourceSansPro-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C2ADC2192984216F00FA1B00 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C2ADC21A298421E100FA1B00 /* friends1.jpg */,
+				C2ADC21B298421E100FA1B00 /* friends2.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,10 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2ADC20A29841AA500FA1B00 /* Preview Assets.xcassets in Resources */,
+				C2ADC21C298421E100FA1B00 /* friends1.jpg in Resources */,
 				C2ADC20729841AA500FA1B00 /* Assets.xcassets in Resources */,
 				C2ADC21729841D4300FA1B00 /* SourceSansPro-SemiBold.ttf in Resources */,
 				C2ADC21529841D4300FA1B00 /* SourceSansPro-Regular.ttf in Resources */,
 				C2ADC21629841D4300FA1B00 /* SourceSansPro-Light.ttf in Resources */,
+				C2ADC21D298421E100FA1B00 /* friends2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

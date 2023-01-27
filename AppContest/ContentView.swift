@@ -9,13 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        GeometryReader { geometry in
+            ScrollView(.horizontal, showsIndicators: true, content: {
+                AsyncImage(url: Bundle.main.url(forResource: "friends1", withExtension: "jpg"))
+                    
+            })
+            .frame(width: geometry.size.width, height: geometry.size.height*0.1, alignment: .center)
         }
-        .padding()
+        .edgesIgnoringSafeArea(.top)
     }
 }
 
